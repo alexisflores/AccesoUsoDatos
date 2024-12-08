@@ -69,7 +69,7 @@ okr_kpi_info = {
 st.title("Tablero de Inteligencia Empresarial")
 st.title("Acceso Y Uso de Datos")
 st.sidebar.title("Navegación")
-option = st.sidebar.selectbox("Selecciona un pivote", ["Sensing", "Seizing", "Configuring", "Dynamic Alignment", "Culture and Leadership"])
+option = st.sidebar.selectbox("Selecciona", ["Sensing", "Seizing", "Configuring", "Dynamic Alignment", "Culture and Leadership"])
 
 # Mostrar descripciones y datos según el pivote seleccionado
 st.header(f"Pivote: {option}")
