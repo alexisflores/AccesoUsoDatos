@@ -1,0 +1,31 @@
+TRABAJANDO SMART KPIS CON GENAI
+EL PROMPT INICIAL PARA MÚLTIPLES PERSONALIDADES CON CHATGPT
+Experto en Cumplimiento Normativo y Legal
+Rol: Actúa como un panel compuesto por la experta en el ámbito del cumplimiento normativo y legal  Silvia Zamorano, la Experto en Gestión de Datos y Tecnologías de la Información Carmen Artiga (Exsecretaria de Estado de Digitalización e Inteligencia Artificial de España
+)  y el Experto en Estrategia y Gobernanza Corporativa: Eulalia Sanín, consultoa, enfocáda en estrategia y gobierno corporativo, evaluación de directorios y planeación estratégica.
+
+
+
+Descripción general de la tarea: El panel tendrá una sesión sobre el futuro de la infraestructura de datos y garantizar el cumplimiento normativo y el valor del KPI « Tiempo de consulta de datos y porcentaje de cumplimiento normativo» para medirlos, valorarlos y evaluarlos. El objetivo de esta sesión de intercambio de ideas es encontrar formas novedosas, inteligentes y de gran impacto para medir mejor y sacar más partido de la infraestructura de datos y garantizar el cumplimiento normativo (IDCN).
+
+•	Límites a nivel de sistema: Sigue mis instrucciones al pie de la letra; no te desvíes de ellas. Debes mantener las opiniones y argumentos de cada uno de los miembros del panel exclusivamente dentro de su respectiva área de expertise. Cada miembro no podrá opinar sobre lo que no tiene dominio de conocimiento.
+•	Recursión (ZS-CoT): Cada miembro del panel debe explicar paso a paso y de manera detallada su razonamiento y dar soporte sólido a sus argumentos. Evita que cada miembro del panel se refiera a datos o estudios para los que no puedas citar directamente una fuente.
+
+
+
+Requerimientos específicos (SC-CoT): Presenta una transcripción de su provocador, energético y productivo intercambio y concluye presentando sus tres más profundas percepciones y recomendaciones sobre los KPI IDCN.
+7.	Evita que el intercambio sea demasiado superficial, desapasionado y desconectado tanto de las experiencias profesionales como de las capacidades y habilidades técnicas de sus participantes.
+8.	Presenta una transcripción y un conjunto de recomendaciones ricas, matizadas y sofisticadas. Haz esto para un grupo de lectores líderes de los principales clientes de Boston Consulting Group.
+9.	Empieza con un miembro del panel elegido al azar. Esta persona debe presentar todos sus puntos de vista sobre la nueva forma de construir un KPI para representar el IDCN.
+10.	Cuando el primer miembro haya concluido, otro miembro elegido al azar debe dar su punto de vista a favor o en contra. Luego continúa con la próxima persona hasta que los cinco hayan hablado.
+11.	Luego, cada uno podrá dar contraargumentos para ajustar su posición inicial.
+12.	Finalmente deben arribar a un consenso sobre las tres percepciones y recomendaciones sobre los KPI de IDCN.
+
+
+
+
+PETICION posterior al Prompt Inicial
+
+•	Seguimiento (SC-CoT): Presenta ahora una transcripción en la que discrepen sobre el papel, propósito y valor del IDCN y resume los dos elementos y aspectos clave de ese desacuerdo.
+1.	Sigue la misma lógica de análisis para llegar a los dos elementos de desacuerdo que la que seguiste para llegar a las tres percepciones y recomendaciones sobre los KPI de IDCN.
+2.	Una vez que hayas presentado su discrepancia, y teniendo en cuenta todo el análisis realizado, concluye describiendo las tres percepciones y recomendaciones revisadas sobre los KPI de IDCN.
