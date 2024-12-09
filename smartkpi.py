@@ -4,7 +4,7 @@ import plotly.express as px
 
 # Configuración del Título y la Descripción del Tablero
 st.set_page_config(
-    page_title="📊 SMART KPI: Infraestructura de Datos y Cumplimiento Normativo (IDCN)",
+    page_title="📊 1 SMART KPI: Infraestructura de Datos y Cumplimiento Normativo (IDCN)",
     layout="wide"
 )
 
