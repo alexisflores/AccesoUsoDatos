@@ -4,15 +4,11 @@ import plotly.express as px
 
 # Configuración del Título y la Descripción del Tablero
 st.set_page_config(
-    page_title="SMART KPI: Infraestructura de Datos y Cumplimiento Normativo (IDCN)",
+    page_title="Tablero de Control: Infraestructura de Datos y Cumplimiento Normativo (IDCN)",
     layout="wide"
 )
 
-# Título y Subtítulo
-st.title("SMART KPI")
-st.subheader("Infraestructura de Datos y Cumplimiento Normativo (IDCN)")
-
-# Descripción general del tablero
+st.title("📊 Tablero de Control: KPI de IDCN")
 st.markdown("""
 Bienvenido al Tablero de Control para monitorear los indicadores clave relacionados con la 
 **Infraestructura de Datos y Cumplimiento Normativo (IDCN)**. Este tablero incluye métricas clave para:
