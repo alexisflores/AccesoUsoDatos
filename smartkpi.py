@@ -4,7 +4,7 @@ import plotly.express as px
 
 # Configuración del Título y la Descripción del Tablero
 st.set_page_config(
-    page_title="📊 1 SMART KPI: Infraestructura de Datos y Cumplimiento Normativo (IDCN)",
+    page_title="SMART KPI: Infraestructura de Datos y Cumplimiento Normativo (IDCN)",
     layout="wide"
 )
 
@@ -100,10 +100,13 @@ Este índice mide el equilibrio entre cumplimiento normativo y aprovechamiento e
 
 # Datos corregidos para la tendencia
 data_estrategico = {
-    "Mes": ["Enero", "Febrero", "Marzo", "Abril"],
-    "Índice de Eficiencia (%)": [85, 87, 88, 90]  # Datos de ejemplo corregidos
+    "Mes": ["Enero", "Febrero", "Marzo", "Abril"],  # Eje X: Meses
+    "Índice de Eficiencia (%)": [85, 87, 88, 90]  # Eje Y: Valores
 }
-df_estrategico = pd.DataFrame(data_estrategico)
+df_estrategico = pd.DataFrame(data_estrategico)  # Crear DataFrame
+
+# Asegurarnos de que los datos se muestren correctamente en el gráfico
+st.write("Datos utilizados para la gráfica de eficiencia estratégica:", df_estrategico)
 
 # Gráfico de área actualizado
 fig_estrategico = px.area(
@@ -111,7 +114,8 @@ fig_estrategico = px.area(
     x="Mes", 
     y="Índice de Eficiencia (%)", 
     title="Tendencia del Índice de Eficiencia del Cumplimiento Estratégico",
-    labels={"Mes": "Mes", "Índice de Eficiencia (%)": "Índice de Eficiencia (%)"}
+    labels={"Mes": "Mes", "Índice de Eficiencia (%)": "Índice de Eficiencia (%)"},  # Etiquetas personalizadas
+    template="plotly_white"  # Estilo del gráfico
 )
 st.plotly_chart(fig_estrategico, use_container_width=True)
 
