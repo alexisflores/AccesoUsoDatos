@@ -4,11 +4,15 @@ import plotly.express as px
 
 # Configuración del Título y la Descripción del Tablero
 st.set_page_config(
-    page_title="Tablero de Control: Infraestructura de Datos y Cumplimiento Normativo (IDCN)",
+    page_title="📊 SMART KPI: Infraestructura de Datos y Cumplimiento Normativo (IDCN)",
     layout="wide"
 )
 
-st.title("📊 Tablero de Control: KPI de IDCN")
+# Título y Subtítulo
+st.title("SMART KPI")
+st.subheader("Infraestructura de Datos y Cumplimiento Normativo (IDCN)")
+
+# Descripción general del tablero
 st.markdown("""
 Bienvenido al Tablero de Control para monitorear los indicadores clave relacionados con la 
 **Infraestructura de Datos y Cumplimiento Normativo (IDCN)**. Este tablero incluye métricas clave para:
@@ -94,17 +98,20 @@ st.markdown("""
 Este índice mide el equilibrio entre cumplimiento normativo y aprovechamiento estratégico de datos.
 """)
 
+# Datos corregidos para la tendencia
 data_estrategico = {
     "Mes": ["Enero", "Febrero", "Marzo", "Abril"],
-    "Índice de Eficiencia (%)": [85, 87, 88, 90]
+    "Índice de Eficiencia (%)": [85, 87, 88, 90]  # Datos de ejemplo corregidos
 }
 df_estrategico = pd.DataFrame(data_estrategico)
 
+# Gráfico de área actualizado
 fig_estrategico = px.area(
     df_estrategico, 
     x="Mes", 
     y="Índice de Eficiencia (%)", 
-    title="Tendencia del Índice de Eficiencia del Cumplimiento Estratégico"
+    title="Tendencia del Índice de Eficiencia del Cumplimiento Estratégico",
+    labels={"Mes": "Mes", "Índice de Eficiencia (%)": "Índice de Eficiencia (%)"}
 )
 st.plotly_chart(fig_estrategico, use_container_width=True)
 
